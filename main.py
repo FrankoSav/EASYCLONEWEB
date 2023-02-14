@@ -1,6 +1,5 @@
 import requests
 
-
 def clonar(url):
     try:
         datos = requests.get(url)
@@ -11,12 +10,11 @@ def clonar(url):
         return f"Error: {str(e)}"
 
 def banner():
-    banner = "EASYCLONEWEB"
-        print(banner)
-        print("By:FrankoSav")
+    banner = "DORK-SEARCHER"
+    print(banner)
+    print("By:FrankoSav")
 
-
-            banner()
+banner()
 
 while True:
     print("Choose Option?")
