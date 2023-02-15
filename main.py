@@ -10,7 +10,7 @@ def clonar(url):
         return f"Error: {str(e)}"
 
 def banner():
-    banner = "DORK-SEARCHER"
+    banner = "EASYCLONEWEB"
     print(banner)
     print("By:FrankoSav")
 
